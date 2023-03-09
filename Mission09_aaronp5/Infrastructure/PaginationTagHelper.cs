@@ -54,6 +54,7 @@ namespace Mission09_aaronp5.Infrastructure
                     tb.AddCssClass(i == PageBlah.CurrentPage
                         ? pageClassSelected : PageClassNormal);
                 }
+                tb.AddCssClass(PageClass);
                 tb.InnerHtml.Append(i.ToString());
 
                 final.InnerHtml.AppendHtml(tb);
