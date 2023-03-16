@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Books</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha512-ZYg+hQvLlM0W9C3P6vTpes5LmJ66G2EsroxDNzwD6qiulckldb29eD9I672HL2X+LH5nRhY1sQqZLJGB+aUUPg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="~/lib/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -14,6 +15,9 @@
     <div class="bg-dark text-white p-2">
         <span class="navbar-brand m-lg-2">Amazon Bookstore</span>
     </div> 
+    <div class="col-6 text-end">
+        <vc:cart-summary />
+    </div>
 </div>
 
     <div class="row m-1 p-1">
